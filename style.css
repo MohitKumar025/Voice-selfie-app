@@ -1,0 +1,57 @@
+   body {
+      background-color: #5a83c1;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .app-card {
+      max-width: 600px;
+      margin: 85px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .title-icon {
+      font-size: 40px;
+      color: #001b45;
+    }
+
+    #camera, #result {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+    }
+
+    #textbox {
+      height: 50px;
+      resize:auto;
+      width: 100%;
+       
+      margin-bottom: 10px   
+      
+    ;
+    }
+
+    .btn-primary {
+      width: 100%;
+      font-size: 18px;
+      padding: 12px;
+      border-radius: 12px;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #6c757d;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .title-icon {
+        font-size: 32px;
+      }
+    }
+  
